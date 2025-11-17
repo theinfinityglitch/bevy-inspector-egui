@@ -4,4 +4,10 @@ members = ["crates/*"]
 
 [workspace.dependencies]
 egui = "0.33"
-bevy_egui = { git = "https://github.com/theinfinityglitch/bevy_egui.git", branch = "bevy-0.17.2" }
+bevy_egui = { git = "https://github.com/theinfinityglitch/bevy_egui.git", branch = "bevy-0.17.2", default-features = false, features = [
+    "manage_clipboard",
+    "open_url",
+    "default_fonts",
+    "render",
+    "bevy_ui"
+] }

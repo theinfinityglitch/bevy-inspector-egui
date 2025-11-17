@@ -30,6 +30,7 @@ bevy_gizmos = ["dep:bevy_gizmos"]
 bevy_core_pipeline = ["dep:bevy_core_pipeline"]
 egui_clipboard = ["bevy_egui/manage_clipboard"]
 egui_open_url = ["bevy_egui/open_url"]
+bevy_egui_picking = ["bevy_egui/picking"]
 highlight_changes = []
 
 [package.metadata.docs.rs]
